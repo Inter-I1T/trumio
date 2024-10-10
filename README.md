@@ -1,5 +1,5 @@
 
-# Team-83
+# Trumio
 
 We present our features for the ecosystem around our standalone platform to the ecosystem - "Trumio University" along with a feature that incentivises existing trumio users to earn badges to improve their bidder profiles. We have implemented course recommender, news flash, bidder recommender and course recommender based on description of tickets for a project.
 
@@ -40,7 +40,7 @@ Thus, we obtain a score between 1 to 5. This score acts as a star-based rating s
 
 ## Folder structure
 ```bash
-Team-83
+trumio
 ├───backend
 │   ├───Features
 │   ├───models
