@@ -1,0 +1,15 @@
+flask
+flask-smorest
+python-dotenv
+pymongo
+mongoengine
+numpy
+pandas
+sentence-transformers
+torch
+flask_bcrypt
+flask_jwt_extended
+flask_cors
+newsapi-python
+boto3
+requests
