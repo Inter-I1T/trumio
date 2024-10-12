@@ -40,10 +40,10 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="#"
+                  to="/form"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#4D2C5E] md:p-0"
                 >
-                  About
+                  Bidder
                 </Link>
               </li>
               <li>
@@ -56,10 +56,18 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="#"
+                  to="/projects"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#4D2C5E] md:p-0 "
                 >
-                  Services
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/event/home"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#4D2C5E] md:p-0 "
+                >
+                  Events
                 </Link>
               </li>
             </ul>

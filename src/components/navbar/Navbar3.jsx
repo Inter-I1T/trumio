@@ -21,7 +21,7 @@ export const Navbar3 = () => {
           </Link>
           <div className="flex md:order-2 space-x-3 items-center rtl:space-x-reverse">
             <NotificationsActiveIcon />
-          <Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar>
+            <Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar>
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
@@ -30,7 +30,7 @@ export const Navbar3 = () => {
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <Link
-                  to="/projects"
+                  to="/"
                   className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#644a71] md:p-0 "
                   aria-current="page"
                 >
@@ -39,11 +39,11 @@ export const Navbar3 = () => {
               </li>
               <li>
                 <Link
-                  to="/projects"
+                  to="/event/home"
                   className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#644a71] md:p-0 "
                   aria-current="page"
                 >
-                  Trumio
+                  Events
                 </Link>
               </li>
               <li>
