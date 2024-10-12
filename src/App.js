@@ -12,6 +12,9 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 import Tickets from "./pages/Tickets";
 import { Navbar2 } from "./components/navbar/Navbar2";
 import { Navbar3 } from "./components/navbar/Navbar3";
+import Event from "./pages/Event";
+import EventContent from "./components/event/EventContent";
+import Payment from "./components/event/Payment";
 
 function App() {
   return (
@@ -19,18 +22,109 @@ function App() {
       <ToastContainer />
       {/* <Navbar/> */}
       <Routes>
-        <Route path="/" element={<><Navbar/><Index /></>} />
-        <Route path="/login" element={ <><Navbar/><Signin /></>} />
-        <Route path="/register" element={<> <Navbar/><Register /></>} />
-        <Route path="/profile" element={<><Navbar2/><Profile /></>} />
-        <Route path="/form" element = {<><Navbar3/><ProjectForm /></>} />
-        <Route path="/bid" element = {<><Navbar3/><Bidder /></>} />
-        <Route path="/projects" element = {<><Navbar3/><ProjectDisplay /></>} />
-        <Route path="/tickets" element = {<><Navbar3/><Tickets /></>} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Index />
+            </>
+          }
+        />
+        <Route
+          path="/login"
+          element={
+            <>
+              <Navbar />
+              <Signin />
+            </>
+          }
+        />
+        <Route
+          path="/register"
+          element={
+            <>
+              {" "}
+              <Navbar />
+              <Register />
+            </>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <>
+              <Navbar2 />
+              <Profile />
+            </>
+          }
+        />
+        <Route
+          path="/form"
+          element={
+            <>
+              <Navbar3 />
+              <ProjectForm />
+            </>
+          }
+        />
+        <Route
+          path="/bid"
+          element={
+            <>
+              <Navbar3 />
+              <Bidder />
+            </>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <>
+              <Navbar3 />
+              <ProjectDisplay />
+            </>
+          }
+        />
+        <Route
+          path="/tickets"
+          element={
+            <>
+              <Navbar3 />
+              <Tickets />
+            </>
+          }
+        />
+        <Route
+          path="/event/home"
+          element={
+            <>
+              <Navbar3 />
+              <Event />
+            </>
+          }
+        />
+        <Route
+          path="/event/description"
+          element={
+            <>
+              <Navbar3 />
+              <EventContent />
+            </>
+          }
+        />
+        <Route
+          path="/event/payment"
+          element={
+            <>
+              <Navbar3 />
+              <Payment />
+            </>
+          }
+        />
       </Routes>
     </>
   );
 }
 
 export default App;
-
