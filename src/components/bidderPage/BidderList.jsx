@@ -69,7 +69,7 @@ const BidderList = ({ data }) => {
   console.log(data);
   return (
     <>
-      <div className="mt-10 pb-16 ml-28 flex flex-col w-[80%] gap-5">
+      <div className="mt-10 pb-16 flex flex-col w-[80%] gap-5">
         <div className="text-xl font-medium tracking-wide">
           Recommended Bidders for {data[0]}
         </div>

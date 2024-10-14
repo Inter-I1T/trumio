@@ -11,7 +11,7 @@ const Bidder = () => {
       {/* <BidNavbar /> */}
       <div className='pt-20 bg-gray-100'>
         <Project data={state.project} />
-        <div style={{ display: 'flex', flexDirection: 'row', gap: '0rem' }}>
+        <div className='mx-16 flex gap-5'>
           {state.bidder.map((bidder, index) => (
             <BidderList key={index} data={bidder} />
           ))}

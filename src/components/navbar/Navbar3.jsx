@@ -48,6 +48,15 @@ export const Navbar3 = () => {
               </li>
               <li>
                 <Link
+                  to="/event/alumniConnect"
+                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#644a71] md:p-0 "
+                  aria-current="page"
+                >
+                  Alumni
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/form"
                   className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-[#644a71] md:p-0 "
                   aria-current="page"

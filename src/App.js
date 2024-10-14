@@ -15,6 +15,8 @@ import { Navbar3 } from "./components/navbar/Navbar3";
 import Event from "./pages/Event";
 import EventContent from "./components/event/EventContent";
 import Payment from "./components/event/Payment";
+import AlumniConnect from "./components/event/AluminiAssociation";
+import RegistrationForm from "./components/event/AlumniRegistration";
 
 function App() {
   return (
@@ -119,6 +121,24 @@ function App() {
             <>
               <Navbar3 />
               <Payment />
+            </>
+          }
+        />
+        <Route
+          path="/event/alumniConnect"
+          element={
+            <>
+              <Navbar3 />
+              <AlumniConnect />
+            </>
+          }
+        />
+        <Route
+          path="/event/alumniRegistration"
+          element={
+            <>
+              <Navbar3 />
+              <RegistrationForm />
             </>
           }
         />

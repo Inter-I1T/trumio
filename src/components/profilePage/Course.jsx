@@ -75,21 +75,21 @@ const Course = ({ domain, courses }) => {
           console.log(courses[idx])
           return (
             <div>
-            <h3 className="tracking-wide text-3xl font-bold mt-5">{tech}</h3>
-            <section className="grid grid-cols-3 gap-14 mt-3 mb-5">
-              {courses[idx].map((course, index) => {
-                return (
-                  <>
-                    <CourseCard
-                      key={`course-${index}`}
-                      index={index}
-                      {...course}
-                    />
-                </>
-                )
-                  })}
-            </section>
-          </div>
+              <h3 className="tracking-wide text-3xl font-bold mt-5">{tech}</h3>
+              <section className="grid grid-cols-3 gap-14 mt-3 mb-5">
+                {courses[idx].map((course, index) => {
+                  return (
+                    <>
+                      <CourseCard
+                        key={`course-${index}`}
+                        index={index}
+                        {...course}
+                      />
+                    </>
+                  )
+                })}
+              </section>
+            </div>
           )
         })}
       </div>
